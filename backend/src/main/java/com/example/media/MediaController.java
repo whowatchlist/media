@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MediaController {
 
-    @GetMapping
+    @GetMapping("/list")
     public String getData() {
         return "Give data";
     }
