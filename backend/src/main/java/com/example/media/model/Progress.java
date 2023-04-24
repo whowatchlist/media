@@ -1,4 +1,6 @@
 package com.example.media.model;
 
-public record Progress(int progress, boolean completed) {
+import java.util.Optional;
+
+public record Progress(Optional<Integer> progress, boolean completed) {
 }
